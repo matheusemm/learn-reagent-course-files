@@ -4,7 +4,7 @@
                 [proto-repl "0.3.1"]
                 [reagent "0.8.0"]]
 
- :nrepl        {:port 3333}
+ :nrepl {:port 3333}
 
  :builds
  {:app {:target :browser
@@ -16,6 +16,6 @@
          {:entries [giggin.core]}}
 
         :devtools
-        {:after-load  giggin.core/main
-         :http-root   "public"
-         :http-port   3000}}}}
+        {:after-load giggin.core/main
+         :http-root "public"
+         :http-port 3000}}}}

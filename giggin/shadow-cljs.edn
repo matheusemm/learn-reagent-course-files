@@ -22,4 +22,7 @@
          :http-port 3000}
 
         :js-options
-        {:babel-preset-config {:targets {"chrome" "80"}}}}}}
+        {:babel-preset-config {:targets {"chrome" "80"}}}
+
+        :release
+        {:compiler-options {:optimizations :simple}}}}}

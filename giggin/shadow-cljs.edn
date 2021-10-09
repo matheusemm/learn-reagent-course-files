@@ -17,8 +17,7 @@
          {:entries [giggin.core]}}
 
         :devtools
-        {:after-load giggin.core/main
-         :http-root "public"
+        {:http-root "public"
          :http-port 3000}
 
         :js-options

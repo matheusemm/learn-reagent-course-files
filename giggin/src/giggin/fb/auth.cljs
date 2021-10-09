@@ -17,7 +17,6 @@
   (onAuthStateChanged
     (getAuth)
     (fn [user]
-      (.log js/console user)
       (if user
         (let [uid (.-uid user)
               profile {:display-name (.-displayName user)

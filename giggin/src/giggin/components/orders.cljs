@@ -31,7 +31,7 @@
             [:div.content
              (if (get-in gigs [id :sold-out])
                [:p.sold-out "Sold out"]
-               [:p.title (str (get-in gigs [id :title]) " \u00D7 " quantity)])]
+               [:p.title (get-in gigs [id :title]) " \u00D7 " quantity])]
             [:div.action
              (if (get-in gigs [id :sold-out])
                [:div.price (format-price 0)]

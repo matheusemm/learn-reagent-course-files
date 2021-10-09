@@ -19,4 +19,7 @@
         :devtools
         {:after-load giggin.core/main
          :http-root "public"
-         :http-port 3000}}}}
+         :http-port 3000}
+
+        :js-options
+        {:babel-preset-config {:targets {"chrome" "80"}}}}}}

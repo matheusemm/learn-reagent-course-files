@@ -8,3 +8,5 @@ package-lock.json
 .DS_Store
 /.idea
 pom.xml
+/.firebase
+.firebaserc
